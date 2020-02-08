@@ -5,7 +5,7 @@
 // ========== Theme Color ========== //
 // Config here to change theme color
 // Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-$theme-color-config: 'Default';
+$theme-color-config: 'Ryo Theme';
 
 // Default theme color map
 $theme-color-map: (
@@ -13,7 +13,8 @@ $theme-color-map: (
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
-  'Dark Violet': #9932CC #f5f4fa
+  'Dark Violet': #9932CC #f5f4fa,
+  'Ryo Theme': #34a073 #f5f5f5 #4defab 
 );
 
 // Check theme color config.
@@ -28,6 +29,8 @@ $theme-color: nth($theme-color-list, 1) !default;
 
 // Deputy theme color of the site.
 $deputy-color: nth($theme-color-list, 2) !default;
+
+$top-bar-color: nth($theme-color-list, 3) !default;
 
 
 // ========== Color ========== //
