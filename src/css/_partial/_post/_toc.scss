@@ -42,8 +42,11 @@
       }
     }
 
-    .toc-link.active {
-      color: $theme-color;
+    .toc-link{
+      border-bottom: 1px solid lightgray;
+      &.active {
+        color: $theme-color;
+      }
     }
   }
 }
