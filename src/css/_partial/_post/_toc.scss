@@ -56,6 +56,10 @@
 
 @include max-screen($toc-max-sreen-width) {
   .post-toc {
-    display: none;
+    top: 0!important;
+    display: block;
+    position: relative!important;
+    margin: auto;
+    width: 100%;
   }
 }
