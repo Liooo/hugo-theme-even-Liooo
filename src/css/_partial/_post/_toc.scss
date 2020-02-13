@@ -47,6 +47,9 @@
       &.active {
         color: $theme-color;
       }
+      &:hover{
+        color: $theme-color;
+      }
     }
   }
 }
